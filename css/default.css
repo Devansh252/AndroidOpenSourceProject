@@ -10,7 +10,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
 body,button,input,select,textarea {
-	font-size:12px/1.5;
+	font-size:15px/1.5;
 }
 input,select,textarea {
 	font-size:100%;
@@ -37,7 +37,7 @@ del {
 }
 address,caption,cite,code,dfn,em,th,var {
 	font-style:normal;
-	font-weight:500;
+	font-weight:600;
 }
 ol,ul {
 	list-style:none;
@@ -47,7 +47,7 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
 	font-size:100%;
-	font-weight:500;
+	font-weight:600;
 }
 q:before,q:after {
 	content:'';
@@ -92,14 +92,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  color: #606c71; 
+  color: #70acc4; 
 }
 
 
 a {
-	color:#4A75B5;
+	color:#2f348f;
 	text-decoration:none;
 	outline:none;
 }
@@ -116,7 +116,7 @@ a.external:hover {
 .entry-title,.entry-title a {
 	font-size:30px;
 	font-weight:bold;
-	margin-bottom:6px;
+	margin-bottom:8px;
 	color:#000;
 	text-align:center;
 	word-wrap:break-word;
@@ -186,7 +186,7 @@ pre ol {
 	margin:90px auto 60px;
 	min-height:400px;
 	height:auto !important;
-	height:400px;
+	height:450px;
 }
 /************footer style*****************/
 #footer {
@@ -271,7 +271,7 @@ pre ol {
 	height:100%;
 	max-width:500px;
 	background:#000;
-	box-shadow:inset -1px 0 0 rgba(0,0,0,0.3);
+	box-shadow:inset -1px 0 0 rgba(0,0,0,0.4);
 	background-size:cover;
 	background-position:50% 50%;
 }
